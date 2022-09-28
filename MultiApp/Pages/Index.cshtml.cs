@@ -24,7 +24,7 @@ namespace MultiApp.Pages
         {
             using var httpClient = new HttpClient();
             var request = new HttpRequestMessage();
-            request.RequestUri = new Uri("http://localhost:63385/api/jokes");
+            request.RequestUri = new Uri("http://multiapi/api/jokes");
             request.Method = HttpMethod.Get;
 
             var response = await httpClient.SendAsync(request);
