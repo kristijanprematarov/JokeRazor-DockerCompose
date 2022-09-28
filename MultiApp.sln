@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiApp", "MultiApp\MultiApp.csproj", "{2BF2BB62-611F-48E4-885E-FCA69C500469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiApi", "MultiApi\MultiApi.csproj", "{A1057DC1-7F6C-42E3-90FC-CD3DB92909E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BF2BB62-611F-48E4-885E-FCA69C500469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF2BB62-611F-48E4-885E-FCA69C500469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF2BB62-611F-48E4-885E-FCA69C500469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF2BB62-611F-48E4-885E-FCA69C500469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1057DC1-7F6C-42E3-90FC-CD3DB92909E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1057DC1-7F6C-42E3-90FC-CD3DB92909E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1057DC1-7F6C-42E3-90FC-CD3DB92909E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1057DC1-7F6C-42E3-90FC-CD3DB92909E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F3FEFE7-4252-4EAA-B5CA-3A31234E8730}
+	EndGlobalSection
+EndGlobal
